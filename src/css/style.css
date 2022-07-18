@@ -411,6 +411,11 @@ width: 60px;
 
 
     
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+    
     .topnav a {
         float: left;
         color: black;
@@ -441,7 +446,7 @@ width: 60px;
     position: relative;
     top: 70px;
     right: 1100px;
-    display: inline;
+    display: none;
     animation-name: animate;
     -webkit-animation: mover 2s infinite alternate;
     animation: mover 2s infinite alternate;
