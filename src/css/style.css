@@ -1,0 +1,714 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.topnav {
+    background-color: white;
+
+
+
+}
+
+
+.topnav .head {
+    position: absolute;
+    right: 200px;
+    top: 10px;
+
+}
+
+.topnav .head .active {
+
+    color: #F4A825;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+
+
+img {
+    position: relative;
+    right: 40px;
+
+}
+
+
+@keyframes animate {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.topnav .button {
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+
+.topnav .button a {
+
+
+    border-color: #0dcaf0;
+
+}
+
+
+.signin {
+    background-color: #F4A825;
+    color: #165593;
+}
+
+
+/* --------------------End Navbar------------ */
+
+.container {
+    display: flex;
+}
+
+
+.container #head {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 70px;
+    right: 1100px;
+    display: inline;
+    animation-name: animate;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+
+.container .smart {
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    left: 500px;
+
+}
+
+.container h1 {
+    font-size: 80px;
+    position: relative;
+    right: 500px;
+}
+
+.container p {
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.container .p {
+    width: 700px;
+    height: 400px;
+    position: relative;
+    right: 400px;
+}
+
+/* ------------------------End Smart Gate------------------------------ */
+
+
+.news {
+
+    width: 20%;
+    height: 80px;
+    position: relative;
+    right: 70px;
+    border-right: 10px #0dcaf0 solid;
+}
+
+.news p {
+    font-size: 50px;
+    font-weight: bolder;
+    position: relative;
+    right: 50px;
+}
+
+.row {
+
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+
+}
+
+
+#breaking {
+    width: 30%;
+    height: 500px;
+    background-image: url(../img/istockphoto-879308898-170667a.jpg);
+    background-repeat: no-repeat;
+
+}
+
+
+
+#breaking .caption {
+    background-color: white;
+    color: black;
+    margin-top: 300px;
+}
+
+
+.caption h3 {
+    padding: 10px 0px;
+}
+
+.caption p {
+    margin: 20px 0px;
+}
+
+
+
+/* --------------End Breaking------------------------- */
+
+
+.serv {
+    width: 20%;
+    height: 80px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+    position: relative;
+    right: 100px;
+    border-right: 10px #0dcaf0 solid
+}
+
+.services {
+    display: flex;
+    width: 100%;
+    height: 500px;
+
+    justify-content: space-around;
+}
+
+
+.services #four {
+    width: 20%;
+    height: 400px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+
+}
+
+.services #four:hover {
+    background-color: white;
+    color: white;
+}
+
+.services #four img {
+    width: 100px;
+    position: relative;
+    top: 50px;
+}
+
+.services #four .app {
+    margin-top: 80px;
+}
+
+.services #four .app h3 {
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.services #four .app p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* --------------------End four Divs---------------------- */
+
+.imgs{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+    position: relative;
+    left: 50px;
+    top: 150px;
+
+}
+
+.imgs #same{
+    width: 400px;
+    height: 400px;
+}
+
+
+/* ----------------------ENd Website-------------- */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    
+    position: relative;
+    top: 300px;
+}
+
+form{
+   position: relative;
+   left: 100px;
+    height: 400px;
+    width: 600px;
+}
+
+
+footer form label{
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+
+footer form input{
+    height: 60px;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    width: 500px;
+}
+
+
+footer .map{
+    
+    height: 400px;
+}
+
+button{
+    position: relative;
+    top: 400px;
+    right: 400px;
+    background-color: #F4A825;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px ;
+
+}
+
+/* --------------------------ENd button------------ */
+
+
+.last{
+    background-color: #0dcaf0;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 500px;
+}
+
+
+.last #last{
+    width: 120px;
+    position: absolute;
+    top: 50px;
+    right: 180px;
+}
+
+
+.last p{
+    position: absolute;
+    top: 200px;
+    font-size: 25px;
+    color: white;
+    width: auto;
+
+}
+
+
+
+.last ul{
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 800px;
+    top: 100px;
+    font-size: 30px;
+}
+
+
+.last  .contact{
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 1000px;
+}
+
+
+.last .logo{
+    position: absolute;
+    left: 120px;
+    top: 100px;
+
+}
+
+
+.last .logo i{
+width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------IPhone 7 portrait */
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:750px){
+
+
+    
+    .topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    img {
+        position: relative;
+        right: 40px;
+    
+    }
+
+/* --------------------End Navbar------------ */
+
+
+
+.container {
+    display: flex;
+  
+}
+
+
+.container #head {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 70px;
+    right: 1100px;
+    display: inline;
+    animation-name: animate;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+
+
+    .container .smart {
+        display: inline-block;
+        position: relative;
+        top: 70px;
+        left: 1000px;
+    
+    }
+
+    .container h1 {
+        font-size: 20px;
+        position: relative;
+        right: 800px;
+
+    }
+    .container p {
+    font-size: 20px;
+    text-align: justify;
+    width: 30%;
+    position: relative;
+    right: 300px;
+    
+
+}
+
+
+
+
+.row {
+
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 150px;
+
+}
+
+#breaking {
+    width: 90%;
+    height: 500px;
+    background-image: url(../img/istockphoto-879308898-170667a.jpg);
+    background-repeat: no-repeat;
+
+}
+
+
+/* ----------------End Breaking-------------------- */
+
+
+.serv {
+    width: 20%;
+    height: 80px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+    position: relative;
+    right: 50px;
+    top: 1000px;
+    border-right: 10px #0dcaf0 solid
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+position: relative;
+top: 1200px;
+    justify-content: space-around;
+}
+
+
+.services #four {
+    width: 90%;
+    height: 400px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+
+}
+
+
+.services #four img {
+    width: 100px;
+    position: relative;
+    top: 50px;
+}
+
+
+.services #four:hover {
+    background-color: white;
+    color: black;
+    
+}
+.services #four .app {
+    margin-top: 80px;
+}
+
+.services #four .app h3 {
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.services #four .app p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* ---------------End Four divs---------------- */
+
+
+
+
+.imgs{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+    position: relative;
+    left: 50px;
+    top: 3000px;
+
+}
+
+.imgs #same{
+    width: 400px;
+    height: 400px;
+}
+
+/* ------------End website----------------- */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    flex-wrap: wrap;
+    position: relative;
+    top: 5000px;
+}
+
+form{
+   position: relative;
+   left: 20px;
+    height: 400px;
+    width: 600px;
+    top: 50px;
+}
+
+
+footer form label{
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+
+footer form input{
+    height: 60px;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+}
+
+
+footer .map{
+ width: 40px;   
+    height: 400px;
+    position: relative;
+    left:200px;
+}
+
+
+
+
+
+button{
+    position: relative;
+    top: 5460px;
+    right: 40px;
+    background-color: #F4A825;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px ;
+
+}
+
+/* -----------ENd form and map----------------- */
+
+.last{
+    background-color: #0dcaf0;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 5500px;
+}
+
+
+.last #last{
+    width: 70px;
+    position: absolute;
+    top: 150px;
+    right: 180px;
+}
+
+
+.last p{
+    position: absolute;
+    top: 250px;
+    font-size: 25px;
+    color: white;
+    width: auto;
+
+}
+
+
+
+.last ul{
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 800px;
+    top: 100px;
+    font-size: 30px;
+}
+
+
+.last  .contact{
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 1000px;
+}
+
+
+.last .logo{
+    position: absolute;
+    left: 120px;
+    top: 100px;
+
+}
+
+
+.last .logo i{
+width: 40px;
+}
+
+
+
+
+
+
+}
